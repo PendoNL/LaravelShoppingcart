@@ -80,7 +80,7 @@ class CartItem implements Arrayable, Jsonable
         if(empty($name)) {
             throw new \InvalidArgumentException('Please supply a valid name.');
         }
-        if(empty($taxRate)) {
+        if(empty($taxRate) && $taxRate !== 0) {
             throw new \InvalidArgumentException('Please supply a valid taxRate.');
         }
         if(strlen($price) < 0 || ! is_numeric($price)) {
