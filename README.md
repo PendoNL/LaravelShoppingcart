@@ -1,3 +1,5 @@
+22/05/2020: This package is used in project P1-H24 only due to modification on tax rules. This project should be rewritten with a better card solution.
+
 ## LaravelShoppingcart
 [![Build Status](https://travis-ci.org/Crinsane/LaravelShoppingcart.png?branch=master)](https://travis-ci.org/Crinsane/LaravelShoppingcart)
 [![Total Downloads](https://poser.pugx.org/gloudemans/shoppingcart/downloads.png)](https://packagist.org/packages/gloudemans/shoppingcart)
